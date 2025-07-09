@@ -1,0 +1,26 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts:
+- caption: Part 1
+  chapters:
+  - file: markdown
+  - file: notebooks
+  - file: markdown-notebooks
+
+- caption: Part 2
+  chapters:
+  - file: test_doc
+    title: Function Usage Demo
+  - file: data_loading
+    title: Loading Data
+    sections:
+        - file: data_cleaning
+          title: Cleaning Data
+  - file: visualizations
+    title: Visualizations
+  - file: glossary
+    title: Glossary
